@@ -1,0 +1,118 @@
+aid: wework
+url: https://raw.githubusercontent.com/api-evangelist/wework/refs/heads/main/apis.yml
+name: WeWork
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+description: WeWork is a global flexible-workspace provider operating ~600 owned locations plus a Coworking Partner Network of 2,000+ partner spaces across 20+ countries. The company filed for Chapter 11 bankruptcy on November 6, 2023 and emerged on May 30, 2024 as a private company majority-owned by real estate technology vendor Yardi Systems. WeWork exposes a Partner API ("Partner API will help bring WeWork space bookings to your apps and websites") for Supply and Demand partners covering identity, locations, inventory, availability/calendaring, booking, and keycard access, but the full API reference sits behind Auth0 authentication and is not publicly catalogable. No public OpenAPI, AsyncAPI, SDKs, CLIs, status page, RSS feed, or rate-limit documentation could be located.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+tags:
+  - Coworking
+  - Flexible Workspace
+  - Real Estate
+  - Workspace Booking
+  - Workplace Management
+  - Bookings
+  - Inventory
+common:
+  - type: Portal
+    url: https://www.wework.com
+  - type: DeveloperPortal
+    url: https://developers.wework.com
+  - type: Documentation
+    url: https://developers.wework.com/docs
+  - type: APIReference
+    url: https://developers.wework.com/docs/api-reference
+  - type: Quickstart
+    url: https://developers.wework.com/docs/quick-start
+  - type: ReleaseNotes
+    url: https://developers.wework.com/docs/release-notes
+  - type: Authentication
+    url: https://developers.wework.com/how-to-guides/how-to-create-service-tokens
+  - type: SignUp
+    url: https://developers.wework.com/quick-start/request-access/submit-app-for-review
+  - type: Partners
+    url: https://www.wework.com/info/partner-with-us
+  - type: Login
+    url: https://members.wework.com
+  - type: HelpCenter
+    url: https://help.wework.com
+  - type: Newsroom
+    url: https://newsroom.wework.com
+  - type: Contact
+    url: https://www.wework.com/contact-us
+  - type: Privacy
+    url: https://www.wework.com/legal/privacy
+  - type: TermsOfService
+    url: https://www.wework.com/legal/terms-of-service
+  - type: CookiePolicy
+    url: https://www.wework.com/legal/cookie-policy
+  - type: Accessibility
+    url: https://www.wework.com/legal/accessibility
+  - type: Careers
+    url: https://careers.wework.com
+  - type: GitHubOrganization
+    url: https://github.com/wework
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/wework
+apis:
+  - aid: wework:partner-api
+    name: WeWork Partner API
+    description: The WeWork Partner API exposes the company's global workspace inventory to integrators so that Supply Partners (third-party operators contributing spaces to WeWork) and Demand Partners (resellers and platforms booking WeWork inventory on behalf of end users) can build workspace booking into their own apps and websites. Documented capability domains include Identity (user lookup), Locations, Inventory, Availability and Calendaring, Booking, and Keycard Access. Authentication uses service tokens, and access requires partner application and review. The full API reference is gated behind Auth0 sign-in and is not publicly browsable, so endpoint paths, request/response schemas, and quota policies cannot be catalogued from public sources.
+    humanURL: https://developers.wework.com
+    tags:
+      - Partner API
+      - Bookings
+      - Inventory
+      - Locations
+      - Availability
+      - Calendaring
+      - Identity
+      - Keycard Access
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    properties:
+      - type: DeveloperPortal
+        url: https://developers.wework.com
+      - type: Documentation
+        url: https://developers.wework.com/docs
+      - type: APIReference
+        url: https://developers.wework.com/docs/api-reference
+      - type: Quickstart
+        url: https://developers.wework.com/docs/quick-start
+      - type: ReleaseNotes
+        url: https://developers.wework.com/docs/release-notes
+      - type: Authentication
+        url: https://developers.wework.com/how-to-guides/how-to-create-service-tokens
+      - type: SignUp
+        url: https://developers.wework.com/quick-start/request-access/submit-app-for-review
+      - type: Partners
+        url: https://www.wework.com/info/partner-with-us
+  - aid: wework:workplace
+    name: WeWork Workplace
+    description: WeWork Workplace is the company's SaaS workplace-management platform sold to enterprises and landlords to manage flexible-office space across owned, leased, and partner locations. The product is referenced on wework.com but its dedicated marketing site at workplace.wework.com was unreachable (HTTP 403) and no public API documentation, OpenAPI spec, or integration surface for Workplace could be located. It is included here for completeness; the public Partner API above appears to be the only documented programmatic surface.
+    humanURL: https://www.wework.com
+    tags:
+      - Workplace Management
+      - Enterprise
+      - SaaS
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    properties:
+      - type: Portal
+        url: https://www.wework.com
+tools:
+  - name: speccy
+    description: WeWork-authored OpenAPI 3.0.x linting tool (842 stars, last pushed Dec 2022). Engineering tool published by the company; not an SDK for the Partner API.
+    url: https://github.com/wework/speccy
+  - name: json-schema-to-openapi-schema
+    description: WeWork-authored NodeJS package that converts JSON Schema to OpenAPI Schema Objects (220 stars, last pushed Dec 2023). Engineering tool, not a Partner API client.
+    url: https://github.com/wework/json-schema-to-openapi-schema
+  - name: grabbit
+    description: WeWork-authored Go transactional message bus on top of RabbitMQ (100 stars, last pushed Feb 2023).
+    url: https://github.com/wework/grabbit
+  - name: ray
+    description: WeWork design system resources for building interfaces (55 stars, last pushed Jan 2023).
+    url: https://github.com/wework/ray
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
