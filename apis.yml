@@ -2,7 +2,7 @@ aid: wework
 url: https://raw.githubusercontent.com/api-evangelist/wework/refs/heads/main/apis.yml
 name: WeWork
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 description: WeWork is a global flexible-workspace provider operating ~600 owned locations plus a Coworking Partner Network of 2,000+ partner spaces across 20+ countries. The company filed for Chapter 11 bankruptcy on November 6, 2023 and emerged on May 30, 2024 as a private company majority-owned by real estate technology vendor Yardi Systems. WeWork exposes a Partner API ("Partner API will help bring WeWork space bookings to your apps and websites") for Supply and Demand partners covering identity, locations, inventory, availability/calendaring, booking, and keycard access, but the full API reference sits behind Auth0 authentication and is not publicly catalogable. No public OpenAPI, AsyncAPI, SDKs, CLIs, status page, RSS feed, or rate-limit documentation could be located.
 created: '2026-05-23'
 modified: '2026-05-23'
@@ -70,7 +70,7 @@ apis:
       - Calendaring
       - Identity
       - Keycard Access
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     properties:
       - type: DeveloperPortal
         url: https://developers.wework.com
@@ -96,7 +96,7 @@ apis:
       - Workplace Management
       - Enterprise
       - SaaS
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     properties:
       - type: Portal
         url: https://www.wework.com
