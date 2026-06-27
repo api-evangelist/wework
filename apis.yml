@@ -24,13 +24,13 @@ common:
     url: https://developers.wework.com/docs
   - type: APIReference
     url: https://developers.wework.com/docs/api-reference
-  - type: Quickstart
+  - type: GettingStarted
     url: https://developers.wework.com/docs/quick-start
   - type: ReleaseNotes
     url: https://developers.wework.com/docs/release-notes
   - type: Authentication
     url: https://developers.wework.com/how-to-guides/how-to-create-service-tokens
-  - type: SignUp
+  - type: Signup
     url: https://developers.wework.com/quick-start/request-access/submit-app-for-review
   - type: Partners
     url: https://www.wework.com/info/partner-with-us
@@ -78,13 +78,13 @@ apis:
         url: https://developers.wework.com/docs
       - type: APIReference
         url: https://developers.wework.com/docs/api-reference
-      - type: Quickstart
+      - type: GettingStarted
         url: https://developers.wework.com/docs/quick-start
       - type: ReleaseNotes
         url: https://developers.wework.com/docs/release-notes
       - type: Authentication
         url: https://developers.wework.com/how-to-guides/how-to-create-service-tokens
-      - type: SignUp
+      - type: Signup
         url: https://developers.wework.com/quick-start/request-access/submit-app-for-review
       - type: Partners
         url: https://www.wework.com/info/partner-with-us
