@@ -16,6 +16,8 @@ tags:
   - Bookings
   - Inventory
 common:
+  - type: DomainSecurity
+    url: security/wework-domain-security.yml
   - type: Portal
     url: https://www.wework.com
   - type: DeveloperPortal
