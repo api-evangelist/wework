@@ -19,6 +19,14 @@ created: '2026-05-23'
 modified: '2026-05-23'
 specificationVersion: '0.23'
 tags:
+  - Co-Working
+  - Flexible Workspace
+  - Real-Estate
+  - Workspace Booking
+  - Workplace Management
+  - Bookings
+  - Inventory
+tags_raw:
   - Coworking
   - Flexible Workspace
   - Real Estate
@@ -106,6 +114,10 @@ apis:
     description: WeWork Workplace is the company's SaaS workplace-management platform sold to enterprises and landlords to manage flexible-office space across owned, leased, and partner locations. The product is referenced on wework.com but its dedicated marketing site at workplace.wework.com was unreachable (HTTP 403) and no public API documentation, OpenAPI spec, or integration surface for Workplace could be located. It is included here for completeness; the public Partner API above appears to be the only documented programmatic surface.
     humanURL: https://www.wework.com
     tags:
+      - Workplace Management
+      - Enterprise
+      - Software-as-a-Service
+    tags_raw:
       - Workplace Management
       - Enterprise
       - SaaS
