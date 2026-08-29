@@ -1,5 +1,7 @@
 aid: wework
 url: https://raw.githubusercontent.com/api-evangelist/wework/refs/heads/main/apis.yml
+x-api-posture: docs-gated
+x-api-posture-basis: observed
 name: WeWork
 type: Index
 deliveryModel:
