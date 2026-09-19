@@ -44,7 +44,7 @@ tags:
 - Real-Estate
 - Workspace Booking
 - Workplace Management
-- Bookings
+- Booking
 - Inventory
 tags_raw:
 - Coworking
@@ -112,6 +112,15 @@ apis:
     policies cannot be catalogued from public sources.
   humanURL: https://developers.wework.com
   tags:
+  - Partner API
+  - Booking
+  - Inventory
+  - Location
+  - Availability
+  - Calendaring
+  - Identity
+  - Keycard Access
+  tags_raw:
   - Partner API
   - Bookings
   - Inventory
