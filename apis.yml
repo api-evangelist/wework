@@ -41,7 +41,7 @@ specificationVersion: '0.23'
 tags:
 - Co-Working
 - Flexible Workspace
-- Real-Estate
+- Real Estate
 - Workspace Booking
 - Workplace Management
 - Booking
@@ -54,6 +54,7 @@ tags_raw:
 - Workplace Management
 - Bookings
 - Inventory
+- Real-Estate
 common:
 - type: Website
   url: https://wework.com
@@ -148,6 +149,7 @@ apis:
   - type: Partners
     url: https://www.wework.com/info/partner-with-us
 - aid: wework:workplace
+  x-published: false
   name: WeWork Workplace
   description: WeWork Workplace is the company's SaaS workplace-management platform sold to enterprises
     and landlords to manage flexible-office space across owned, leased, and partner locations. The product
